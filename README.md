@@ -9,3 +9,5 @@
  
  #### Spring Boot 集成 RabbitMQ
  - rabbitmq降低主程序线程压力,是一种非阻塞模式的分布式消息队列服务器，有生产者生产到rabbitmq，消费者消费
+
+#### 实现自己的自动配置
