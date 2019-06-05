@@ -19,7 +19,8 @@ public class HelloServiceAutoConfiguration {
     HelloServiceProperties helloServiceProperties;
 
     @Bean
-    @ConditionalOnMissingBean(HelloService.class)//当容器中没有这个Bean的时候新建Bean  合起来就是  当容器中没有这个Bean的时候  类路径下 新建Bean
+    @ConditionalOnMissingBean(HelloService.class)//当容器中没有这个Bean的时候新建Bean
+    // 合起来就是  当容器中没有这个Bean的时候  类路径下 新建Bean
     public HelloService helloService(){
         HelloService helloService = new HelloService();
         helloService.setMsg(helloServiceProperties.getMsg());
