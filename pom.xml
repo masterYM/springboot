@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
+        <version>2.0.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dl</groupId>
@@ -32,6 +32,7 @@
         <module>open-autoconfig-principle</module>
         <module>redisoper-springboot-start</module>
         <module>redisoper-spring-boot-autoconfiguration</module>
+        <module>spring_boot_starter_hello</module>
     </modules>
 
 </project>
